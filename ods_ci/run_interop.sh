@@ -66,12 +66,12 @@ if [ $retVal -ne 0 ]; then
 fi
 
 if [[ -z "${TEST_SUITE}" ]]; then
-  echo "Define TEST_SUITE"
+  echo "Error: TEST_SUITE not set. Please define it. Exiting.."
   exit 1
 fi
 
 if [[ -z "${ARTIFACT_DIR}" ]]; then
-  echo "Define ARTIFACT_DIR"
+  echo "ARTIFACT_DIR is empty. Using  default value /tmp."
   ARTIFACT_DIR="/tmp"
 fi
 
