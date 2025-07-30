@@ -76,6 +76,7 @@ ignore = [
 ]
 pythonVersion = "3.11"
 pythonPlatform = "Linux"
+leaktk = "0.1.0"
 
 # https://docs.astral.sh/ruff/configuration
 [tool.ruff]
