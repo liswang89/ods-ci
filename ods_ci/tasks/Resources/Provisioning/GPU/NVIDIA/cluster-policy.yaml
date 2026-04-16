@@ -43,7 +43,7 @@ spec:
             configMapName: ""
             nlsEnabled: false
         rdma:
-            enabled: true
+            enabled: false
             useHostMofed: false
         repoConfig:
             configMapName: ""
